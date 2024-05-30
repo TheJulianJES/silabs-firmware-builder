@@ -1,4 +1,4 @@
-name: Tube MGM24 HW High Zigbee
+name: Tube MGM24 HW Max Zigbee
 device: MGM240PA32VNN
 base_project: src/ncp-uart-hw
 filename: "{manifest_name}_{ezsp_version}"
