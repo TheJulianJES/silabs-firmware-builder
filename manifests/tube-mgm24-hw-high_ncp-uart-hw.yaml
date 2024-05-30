@@ -50,4 +50,3 @@ c_defines:
   # required until https://github.com/NabuCasa/silabs-firmware-builder/pull/67 is merged
   SL_DEVICE_INIT_HFXO_FREQ: 39000000
   SL_DEVICE_INIT_HFXO_PRECISION: 500
-
