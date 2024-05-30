@@ -17,7 +17,7 @@ configuration:
 slcp_defines:
   EMBER_ADDRESS_TABLE_SIZE: 250
   EMBER_MULTICAST_TABLE_SIZE: 26
-  EMBER_ROUTE_TABLE_SIZE: 254
+  # EMBER_ROUTE_TABLE_SIZE: 254 # wasn't actually set correctly in original fw
 
 c_defines:
   SL_IOSTREAM_USART_VCOM_PERIPHERAL: USART0
