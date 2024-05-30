@@ -43,5 +43,7 @@ c_defines:
   EMBER_SOURCE_ROUTE_TABLE_SIZE: 254
 
   SL_DEVICE_INIT_HFXO_CTUNE: 140
+
+  # required until https://github.com/NabuCasa/silabs-firmware-builder/pull/67 is merged
   SL_DEVICE_INIT_HFXO_FREQ: 39000000
   SL_DEVICE_INIT_HFXO_PRECISION: 500
