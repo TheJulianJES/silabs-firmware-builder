@@ -196,6 +196,117 @@
 									<listOptionValue builtIn="false" value="-c"/>
 									<listOptionValue builtIn="false" value="-fmessage-length=0"/>
 								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.614543879" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee/app/ncp/plugin/xncp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/autogen}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/Device/SiliconLabs/EFR32MG21/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/common/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/board/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/bootloader&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/bootloader/api&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/CMSIS/Core/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/driver/configuration_over_swo/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/driver/debug/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/service/device_init/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/dmadrv/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/common/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emlib/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/service/iostream/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/service/legacy_common_ash/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/service/legacy_hal/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/service/legacy_hal_wdog/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/service/legacy_ncp_ash/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/service/legacy_printf/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/security/sl_component/sl_mbedtls_support/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/security/sl_component/sl_mbedtls_support/config/preset&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/security/sl_component/sl_mbedtls_support/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/util/third_party/mbedtls/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/util/third_party/mbedtls/library&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/nvm3/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/service/power_manager/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/util/third_party/printf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/util/third_party/printf/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/security/sl_component/sl_psa_driver/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/radio/rail_lib/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/radio/rail_lib/protocol/ble&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/radio/rail_lib/protocol/ieee802154&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/radio/rail_lib/protocol/wmbus&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/radio/rail_lib/protocol/zwave&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/radio/rail_lib/chip/efr32/efr32xg2x&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/radio/rail_lib/protocol/sidewalk&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/radio/rail_lib/plugin/rail_util_ieee802154&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/radio/rail_lib/plugin/pa-conversions&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/radio/rail_lib/plugin/pa-conversions/efr32xg21&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/radio/rail_lib/plugin/rail_util_power_manager_init&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/radio/rail_lib/plugin/rail_util_pti&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/radio/rail_lib/plugin/rail_util_rf_path&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/security/sl_component/se_manager/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/security/sl_component/se_manager/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/util/third_party/segger/systemview/SEGGER&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/util/silicon_labs/silabs_core/memory_manager&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/common/toolchain/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/service/system/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/service/sleeptimer/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/service/token_manager/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee/app/framework/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee/stack/platform/micro&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee/stack/framework&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee/app/framework/plugin/debug-print&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee/stack/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee/stack/gp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee/app/em260&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee/app/xncp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee/app/util/ezsp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee/app/framework/util&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee/app/util/security&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee/stack/zigbee&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee/stack/security&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/radio/rail_lib/plugin&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee/stack&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/radio/mac/rail_mux&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/radio/mac&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/util/silicon_labs/silabs_core&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee/stack/core&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee/stack/mac&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/protocol/zigbee/stack/zll&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.def.symbols.1015403110" name="Defined symbols (-D)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="EMBER_CUSTOM_MAC_FILTER_TABLE_SIZE=15"/>
+									<listOptionValue builtIn="false" value="EFR32MG21A010F1024IM32=1"/>
+									<listOptionValue builtIn="false" value="SL_APP_PROPERTIES=1"/>
+									<listOptionValue builtIn="false" value="SL_BOARD_NAME=&quot;BRD4179B&quot;"/>
+									<listOptionValue builtIn="false" value="SL_BOARD_REV=&quot;A05&quot;"/>
+									<listOptionValue builtIn="false" value="HARDWARE_BOARD_DEFAULT_RF_BAND_2400=1"/>
+									<listOptionValue builtIn="false" value="HARDWARE_BOARD_SUPPORTS_1_RF_BAND=1"/>
+									<listOptionValue builtIn="false" value="HARDWARE_BOARD_SUPPORTS_RF_BAND_2400=1"/>
+									<listOptionValue builtIn="false" value="HFXO_FREQ=38400000"/>
+									<listOptionValue builtIn="false" value="SL_COMPONENT_CATALOG_PRESENT=1"/>
+									<listOptionValue builtIn="false" value="SEGGER_RTT_ALIGNMENT=1024"/>
+									<listOptionValue builtIn="false" value="CORTEXM3=1"/>
+									<listOptionValue builtIn="false" value="CORTEXM3_EFM32_MICRO=1"/>
+									<listOptionValue builtIn="false" value="CORTEXM3_EFR32=1"/>
+									<listOptionValue builtIn="false" value="PHY_RAIL=1"/>
+									<listOptionValue builtIn="false" value="PLATFORM_HEADER=&quot;platform-header.h&quot;"/>
+									<listOptionValue builtIn="false" value="SL_LEGACY_HAL_ENABLE_WATCHDOG=1"/>
+									<listOptionValue builtIn="false" value="MBEDTLS_CONFIG_FILE=&lt;sl_mbedtls_config.h&gt;"/>
+									<listOptionValue builtIn="false" value="MBEDTLS_PSA_CRYPTO_CONFIG_FILE=&lt;psa_crypto_config.h&gt;"/>
+									<listOptionValue builtIn="false" value="SL_RAIL_LIB_MULTIPROTOCOL_SUPPORT=0"/>
+									<listOptionValue builtIn="false" value="SL_RAIL_UTIL_PA_CONFIG_HEADER=&lt;sl_rail_util_pa_config.h&gt;"/>
+									<listOptionValue builtIn="false" value="RTT_USE_ASM=0"/>
+									<listOptionValue builtIn="false" value="SEGGER_RTT_SECTION=&quot;SEGGER_RTT&quot;"/>
+									<listOptionValue builtIn="false" value="CUSTOM_TOKEN_HEADER=&quot;sl_token_manager_af_token_header.h&quot;"/>
+									<listOptionValue builtIn="false" value="USE_NVM3=1"/>
+									<listOptionValue builtIn="false" value="UC_BUILD=1"/>
+									<listOptionValue builtIn="false" value="EMBER_AF_NCP=1"/>
+									<listOptionValue builtIn="false" value="EMBER_SERIAL1_RTSCTS=1"/>
+									<listOptionValue builtIn="false" value="EZSP_UART=1"/>
+									<listOptionValue builtIn="false" value="EMBER_MULTI_NETWORK_STRIPPED=1"/>
+									<listOptionValue builtIn="false" value="SL_ZIGBEE_PHY_SELECT_STACK_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="SL_ZIGBEE_STACK_COMPLIANCE_REVISION=22"/>
+								</option>
+								<inputType id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.input.1553346137" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base.306907396" name="GNU ARM Assembler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base">
 								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.floatingpoint.type.100965238" name="Floating-Point ABI" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.floatingpoint.type" useByScannerDiscovery="false" value="floatingpoint.type.hard" valueType="enumerated"/>
@@ -385,6 +496,16 @@
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.silabs.gnu.cpp.link.option.flags.1698339428" name="Linker flags" superClass="com.silabs.gnu.cpp.link.option.flags" valueType="stringList">
 									<listOptionValue builtIn="false" value="-Wl,--no-warn-rwx-segments"/>
 								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.link.option.libs.1003049014" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gcc"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="c"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="m"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="nosys"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1469314903" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
 							</tool>
 							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base.1476242991" name="GNU ARM Archiver" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base">
 								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.dependencies.projects.1309031578" name="Project Dependencies" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.dependencies.projects"/>
