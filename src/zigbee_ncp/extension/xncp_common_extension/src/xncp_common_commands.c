@@ -52,6 +52,7 @@ static ManualSourceRoute manual_source_routes[XNCP_MANUAL_SOURCE_ROUTE_TABLE_SIZ
 extern sli_zigbee_route_table_entry_t sli_zigbee_route_table[];
 extern uint8_t sli_zigbee_route_table_size;
 extern uint8_t sli_zigbee_address_table_size;
+extern uint8_t addressCacheSize;  // Trust center address cache, at the end of the address table
 
 //------------------------------------------------------------------------------
 // Forward declarations
@@ -414,9 +415,14 @@ static void apply_extended_timeout(uint8_t *eui64, uint16_t node_id, bool extend
         return;
     }
 
-    // No address table entry exists; replace a random one so the timeout sticks
-    uint8_t index = xncp_get_pseudo_random_number() % sli_zigbee_address_table_size;
-    sl_zigbee_set_address_table_info(index, eui64, node_id);
+    // No address table entry exists; replace a random one so the timeout sticks. The
+    // trust center address cache occupies the last `addressCacheSize` entries and is
+    // managed by the stack, so only pick from the application entries before it.
+    uint8_t app_entries = sli_zigbee_address_table_size - addressCacheSize;
+    if (app_entries > 0) {
+        uint8_t index = xncp_get_pseudo_random_number() % app_entries;
+        sl_zigbee_set_address_table_info(index, eui64, node_id);
+    }
     sl_zigbee_set_extended_timeout(eui64, extended_timeout);
 }
 
